@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.main-body{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height:calc(100vh - 70px);
+  overflow: hidden;
+  background-color: #f3f3f3;
+}
+
+.main-bottom{
+  display: flex;
+  position: fixed;
+  bottom: 0px;
+  height: 70px;
+  width: 100vw;
+  background-color: #ffffff;
+}
+.main-bottom ul{
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0px;
+  padding:0px;
+}
+.main-bottom ul li{
+  display: flex;
+  font-size: 1.2em;
+  justify-content: center;
+  width: 20vw;
+}
