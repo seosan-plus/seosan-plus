@@ -1,0 +1,23 @@
+.pannel{
+    display: flex;   
+    flex-direction: column;
+    width: 100vw;
+    padding: 10px 20px 10px 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+.pannel h3{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    text-align: left;
+    position:relative;
+    color: #666666;
+}
+.pannel ul{
+    list-style-type: none;
+    padding: 0px;
+    text-align: left;
+}
+.pannel ul li{
+    padding: 5px 0px 5px 0px;
+}
