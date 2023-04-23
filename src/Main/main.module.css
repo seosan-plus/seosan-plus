@@ -31,5 +31,26 @@
     width: 100%;
 }
 .pannel ul li{
+    padding: 5px 0px 5px 0px;
     text-align: left;
+    font-size: 14px;
+}
+
+.pannel .freeBoard{
+    text-align: left;
+    font-size: 14px;
+    color: #5d5d5d;
+    display: flex;
+    flex-direction: row;
+}
+.pannel .freeBoard .name{
+    display: flex;
+    width: 70px;
+}
+.pannel .freeBoard .title{
+    display: flex;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }

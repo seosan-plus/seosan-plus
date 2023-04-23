@@ -6,6 +6,8 @@ import Main from './Main';
 import Store from './Main/Store';
 import Info from './Main/Info';
 import My from './Main/My';
+import Board from './Main/Board';
+import Contents from './Main/Contents';
 
 function App() {
     return (
@@ -16,6 +18,9 @@ function App() {
                     <Route path='/store' element={<Store />} />
                     <Route path='/info' element={<Info />} />
                     <Route path='/my' element={<My />} />
+                    <Route path='/board' element={<Board />} >
+                    </Route>
+                    <Route path='/board/contents' element={<Contents />} />
                 </Routes>
             </Suspense>
             <Bottom />

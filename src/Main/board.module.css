@@ -1,0 +1,19 @@
+.board h3{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    margin: 5px 0px 5px 0px;
+    
+}
+.board ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+    background-color: white;
+}
+.board ul li{
+    padding: 5px 10px 5px 10px;
+    text-align: left;
+}
