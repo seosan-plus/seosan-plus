@@ -17,7 +17,7 @@ const Main = observer(()=>{
         <div className={styles.pannel}>
             <h3 onClick={()=>navigate('/board',{state:{boardName:"자유게시판"}})}><span>Free board</span><span>more {`>`}</span></h3>
             <ul>
-                {board.freeContents.map((val)=><li onClick={()=>navigate('/board/contents',{state:{...val}})} key={val.contentsSrl}>
+                {board.freeContents.map((val)=><li onClick={()=>navigate('/board/contents',{state:{...val,boardName:"자유게시판"}})} key={val.contentsSrl}>
                     <div className={styles.freeBoard}>
                         <span className={styles.name}>{val.seosanName}</span>  <span className={styles.title}>{val.title}</span>
                     </div>

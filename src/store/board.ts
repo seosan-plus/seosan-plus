@@ -17,6 +17,16 @@ const board = observable({
                 })
             }
         })
+    },
+    movePage(page:number){
+        axios.get('http://localhost:4001/board/free/list/'+String(page)).then((response)=>{
+        console.log(response.data)
+            if(response.data.returnCode === "0000"){
+                runInAction(()=>{
+                    this.freeContents = response.data.result as BoardContents[]
+                })
+            }
+        })
     }
 })
 
