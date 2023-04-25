@@ -1,3 +1,6 @@
+.board > div{
+    margin-bottom: 74px;
+}
 .board h3{
     background-color: white;
     display: flex;

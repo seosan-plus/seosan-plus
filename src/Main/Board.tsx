@@ -19,7 +19,8 @@ const Board = observer(()=>{
 
     return(<div className={styles.board}>
         <Outlet />
-        <div>
+
+        {location.pathname === "/board"?<div>
             <h3>{boardName}</h3>
             <ul>
                 {board.freeContents.map((val)=><li key={val.contentsSrl} onClick={()=>navigate('/board/contents',{state:{...val,boardName:boardName}})} >
@@ -34,7 +35,7 @@ const Board = observer(()=>{
                 <span onClick={()=>setPage(page+1)}>next page</span>
             </div>
 
-        </div>
+        </div>:""}
     </div>)
 })
 

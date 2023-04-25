@@ -39,6 +39,7 @@
   height: 70px;
   width: 100vw;
   background-color: #ffffff;
+  border-top: 1px solid #e2e2e2;
 }
 .main-bottom ul{
   display: flex;
@@ -52,7 +53,7 @@
 }
 .main-bottom ul li{
   display: flex;
-  font-size: 1.2em;
+  font-size: 1.05em;
   justify-content: center;
   width: 20vw;
 }
