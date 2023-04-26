@@ -2,7 +2,7 @@ import styles from "./store.module.css"
 
 const Store = ()=>{
 
-    return(<div className="main-body">
+    return(<div className={styles.main}>
 
         {/* cafe pannel */}
         <div className={styles.pannel}>

@@ -53,7 +53,17 @@
 }
 .main-bottom ul li{
   display: flex;
-  font-size: 1.05em;
+  font-size: 0.9em;
   justify-content: center;
   width: 20vw;
+}
+.main-bottom ul li .active{
+  display: flex;
+  font-size: 1.0em;
+  font-weight: 600;
+  justify-content: center;
+  width: 20vw;
+  text-underline-offset: 5px;
+  text-decoration-line: underline;
+
 }

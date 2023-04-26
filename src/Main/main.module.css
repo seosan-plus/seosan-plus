@@ -46,11 +46,11 @@
 }
 .pannel .freeBoard .name{
     display: flex;
-    width: 70px;
+    min-width: 70px;
 }
 .pannel .freeBoard .title{
     display: flex;
-    width: 100%;
+    max-width: calc(100vw - 70px);
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;

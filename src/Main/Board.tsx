@@ -20,7 +20,7 @@ const Board = observer(()=>{
     return(<div className={styles.board}>
         <Outlet />
 
-        {location.pathname === "/board"?<div>
+        {location.pathname === "/board"?<div className={styles.main}>
             <h3>{boardName}</h3>
             <ul>
                 {board.freeContents.map((val)=><li key={val.contentsSrl} onClick={()=>navigate('/board/contents',{state:{...val,boardName:boardName}})} >

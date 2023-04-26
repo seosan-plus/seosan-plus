@@ -35,3 +35,11 @@
     position: absolute;
     background-color: bisque;
 }
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height:calc(100vh - 70px);
+    overflow: scroll;
+    background-color: #f3f3f3;
+}
