@@ -1,3 +1,4 @@
+import CafeCard from "./CafeCard"
 import styles from "./store.module.css"
 
 const Store = ()=>{
@@ -5,10 +6,10 @@ const Store = ()=>{
     return(<div className={styles.main}>
 
         {/* cafe pannel */}
-        <div className={styles.pannel}>
+        <div className={styles.cafe}>
             <h2>cafe</h2>
             <ul>
-                <li><div>cafe 1</div></li>
+                <li><div><CafeCard /></div></li>
                 <li><div>cafe 2</div></li>
                 <li><div>cafe 3</div></li>
                 <li><div>cafe 4</div></li>
