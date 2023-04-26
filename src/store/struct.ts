@@ -5,3 +5,10 @@ export interface BoardContents  {
     contents:string
     seosanName:string
 }
+
+export interface FuelStation{
+    stationName:string
+    diesel?:number
+    gasoline?:number
+    distance?:number
+}

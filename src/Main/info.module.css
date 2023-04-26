@@ -1,11 +1,12 @@
 .pannel{
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: calc(100vw - 10px);
     padding: 10px 20px 10px 20px;
     box-sizing: border-box;
     background-color: #ffffff;
-    margin-top: 5px;
+    border-radius: 15px;
+    margin: 5px 0px 0px 0px;
 }
 .pannel h3{
     margin-top: 4px;
@@ -13,6 +14,20 @@
     text-align: left;
     position:relative;
     color: #666666;
+}
+.pannel h3 span:nth-child(1){
+    font-size: 1rem;
+    
+    color: #666666;
+}
+.pannel h3 span:nth-child(2){
+    right: 0px;
+    top: 5px;
+    color: #cccccc;
+    font-weight: 400;
+    font-size: 0.8rem;
+    position: absolute;
+    /* background-color: aqua; */
 }
 .pannel ul{
     list-style-type: none;

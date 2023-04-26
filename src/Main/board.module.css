@@ -1,13 +1,10 @@
-.board > div{
-    margin-bottom: 74px;
-}
 .board h3{
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 70px;
-    margin: 5px 0px 5px 0px;
+    margin: 0px 0px 5px 0px;
     
 }
 .board ul{
@@ -38,11 +35,11 @@
 }
 .board .freeBoard .name{
     display: flex;
-    min-width: 80px;
+    min-width: 70px;
 }
 .board .freeBoard .title{
     display: flex;
-    max-width: calc(100vw - 80px);
+    max-width: calc(100vw - 70px);
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
